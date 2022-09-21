@@ -1,0 +1,7 @@
+.sistema-solar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 12px;
+  top: 444px;
+  width: 100vw;
+}

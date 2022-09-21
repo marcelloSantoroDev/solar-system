@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200&display=swap') ;
+
+.seção-missão {
+  background: rgba(24, 26, 37, 0.5);
+  border: solid 1px white;
+  border-radius: 17px;
+  color: white;
+  height: 192px;
+  mix-blend-mode: hard-light;
+  width: 420px;
+}
+
+.nome-missão {
+  display: flex;
+  font-family: Epilogue , sans-serif;
+  font-size: 20px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.missão-data {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
