@@ -1,6 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../MissionCard.css';
+import calendar from '../images/Vector (1).png';
+import flag from '../images/Vector (2).png';
+import pin from '../images/Vector (3).png';
 
 class MissionCard extends React.Component {
   render() {
@@ -10,9 +13,37 @@ class MissionCard extends React.Component {
         <p data-testid="mission-name" className="nome-missão">{ name }</p>
         <hr />
         <div className="missão-data">
-          <p data-testid="mission-year">{ year }</p>
-          <p data-testid="mission-country">{ country }</p>
-          <p data-testid="mission-destination">{ destination }</p>
+          <p data-testid="mission-year">
+            <img
+              src={ calendar }
+              alt="calendario"
+              width={ 15 }
+              height={ 15 }
+              className="icons"
+            />
+            { year }
+
+          </p>
+          <p data-testid="mission-country">
+            <img
+              src={ flag }
+              alt="calendario"
+              width={ 15 }
+              height={ 15 }
+              className="icons"
+            />
+            { country }
+          </p>
+          <p data-testid="mission-destination">
+            <img
+              src={ pin }
+              alt="calendario"
+              width={ 15 }
+              height={ 15 }
+              className="icons"
+            />
+            { destination }
+          </p>
         </div>
       </div>
     );
