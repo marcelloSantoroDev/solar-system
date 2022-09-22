@@ -11,7 +11,7 @@ class MissionCard extends React.Component {
     return (
       <div data-testid="mission-card" className="seção-missão">
         <p data-testid="mission-name" className="nome-missão">{ name.toUpperCase() }</p>
-            <hr />
+        <hr />
         <div className="missão-data">
           <p data-testid="mission-year">
             <img
