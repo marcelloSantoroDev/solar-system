@@ -2,6 +2,12 @@
   display: flex;
   justify-content: space-evenly;
   margin-left: 12px;
-  top: 444px;
+  margin-top: -50px;
   width: 100vw;
+}
+
+.linha {
+  position: absolute;
+  top: 486px;
+  width: 100%;
 }

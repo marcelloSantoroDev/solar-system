@@ -10,8 +10,8 @@ class MissionCard extends React.Component {
     const { name, year, country, destination } = this.props;
     return (
       <div data-testid="mission-card" className="seção-missão">
-        <p data-testid="mission-name" className="nome-missão">{ name }</p>
-        <hr />
+        <p data-testid="mission-name" className="nome-missão">{ name.toUpperCase() }</p>
+            <hr />
         <div className="missão-data">
           <p data-testid="mission-year">
             <img
@@ -27,7 +27,7 @@ class MissionCard extends React.Component {
           <p data-testid="mission-country">
             <img
               src={ flag }
-              alt="calendario"
+              alt="país"
               width={ 15 }
               height={ 15 }
               className="icons"
@@ -37,7 +37,7 @@ class MissionCard extends React.Component {
           <p data-testid="mission-destination">
             <img
               src={ pin }
-              alt="calendario"
+              alt="bandeira"
               width={ 15 }
               height={ 15 }
               className="icons"

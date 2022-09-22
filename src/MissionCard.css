@@ -5,7 +5,7 @@
   border: solid 1px white;
   border-radius: 17px;
   color: white;
-  height: 192px;
+  height: 140px;
   mix-blend-mode: hard-light;
   width: 420px;
 }
@@ -13,15 +13,15 @@
 .nome-missão {
   display: flex;
   font-family: Epilogue , sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   padding-left: 10px;
   width: 100%;
+  height: 20px;
 }
 
 .missão-data {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 70px;
 }
 
 .icons {
