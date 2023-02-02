@@ -1,5 +1,30 @@
-# PROJETO SOLAR SYSTEM (REALIZADO NO CURSO DA TRYBE)
+# Sistema Solar
 
-<h2>Planetas do Sistema Solar</h2>
+Este é um projeto interativo sobre o sistema solar. Com ele, você pode aprender mais sobre os planetas e suas características.
 
-<p>Veja sua aparência e funcionalidades pelo meu perfil do <a href="https://www.linkedin.com/feed/update/urn:li:activity:6979192880791719936/">Linkedin</a></p>
+## Instalação
+
+1. Clone este repositório com `git clone https://github.com/marcelloSantoroDev/solar-system.git`
+
+```bash
+git clone https://github.com/marcelloSantoroDev/solar-system.git
+```
+
+2. Entre na pasta do projeto com `cd solar-system`
+
+```bash
+cd solar-system
+```
+
+3. Instale as dependências com `npm install`
+
+```bash
+npm install
+```
+
+4. Inicie o projeto com `npm start`
+
+```bash
+npm start
+```
+
