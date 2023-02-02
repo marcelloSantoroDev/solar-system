@@ -1,6 +1,6 @@
 # Sistema Solar
 
-Este é um projeto interativo sobre o sistema solar. Com ele, você pode aprender mais sobre os planetas e suas características.
+Este é um projeto interativo sobre o sistema solar. Com ele, você pode aprender mais sobre os planetas e suas respectivas missões já realizadas por nós.
 
 ## Instalação
 
